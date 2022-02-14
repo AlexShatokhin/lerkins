@@ -1,0 +1,170 @@
+*
+    font-family: Arial, Helvetica, sans-serif
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+    color: #222
+
+    .header
+        width: 500px
+        margin: 10px auto
+        position: relative
+        min-height: 70vh
+        .image_and_text
+            position: relative
+            img
+                width: 100%
+                height: 100%
+        .lera_name
+            position: absolute
+            top: 90%
+            left: 25px
+            color: #fff
+            font-style: normal
+            font-weight: bold
+            font-size: 31px
+        .lera_title
+            margin-top: 15px
+            margin-bottom: 30px
+            font-style: normal
+            font-weight: bold
+            font-size: 28px
+            line-height: 28px
+
+    .lera_biography
+        width: 100%
+        min-height: 420px
+        background: #222222
+        padding: 10px
+        position: relative
+        .title
+            font-style: normal
+            font-weight: normal
+            font-size: 12px
+            line-height: 14px
+            color: #FFFFFF
+        .image_text
+            width: 100%
+            .main_text
+                margin-top: 20px
+                word-wrap: break-word
+                font-style: normal
+                font-weight: normal
+                font-size: 12px
+                line-height: 20px
+                color: #fff
+            .photo
+                position: absolute
+                bottom: none
+                right: 100px
+                margin-top: 25px
+                width: 250px
+                height: 300px
+            .lera_child_big
+                display: block
+                width: 500px
+                height: 300px
+                margin: 25px 0 0 100px
+    .lera_carousel
+        margin-top: 15px
+        width: 100%
+        background: #fff
+        min-height: 800px
+        .title
+            width: 50%
+            font-size: 18px
+            text-align: left
+            padding-top: 20px
+            padding-left: 30px
+        .splide
+            margin: 30px 15px
+            height: 600px
+            .splide__slide
+                width: 300px
+                height: 700px
+            .lera_1
+                background: url(../images/lera_1.jpg) center 30%/70% no-repeat
+            .lera_2
+                background: url(../images/lera_2.jpg) center 45%/70% no-repeat
+            .lera_3
+                background: url(../images/lera_3.jpg) center 45%/70% no-repeat
+            .lera_4
+                background: url(../images/lera_4.jpg) center 70%/70% no-repeat      
+            .lera_5
+                background: url(../images/lera_5.jpg) center 70%/70% no-repeat
+            .lera_6
+                background: url(../images/lera_6.jpg) center 35%/70% no-repeat         
+            .splide__pagination__page
+                height: 16px
+                width: 16px
+            .splide__arrow
+                display: none  
+    
+    .birthday
+        background-color: #222
+        height: 260px
+        .title
+            padding-top: 20px
+            padding-left: 10px
+            font-weight: bold
+            color: #fff
+            font-size: 19px
+        .audio
+            display: flex
+            padding-left: 0px
+            justify-content: center
+            align-items: center
+            width: 100%
+            height: 100px
+            .play
+                display: flex
+                justify-content: center
+                align-items: center
+                width: 50px
+                height: 50px
+                background-color: #fff
+                border-radius: 150px
+                cursor: pointer
+                i
+                    text-align: center
+                    font-size: 45px
+                    color: #222
+                .play_icon
+                    display: flex
+                .pause
+                    display: none
+                    font-size: 40px
+            .click
+                color: #fff
+                padding-left: 10px
+                font-size: 20px
+        .text
+            padding-left: 10px
+            color: #fff
+            margin-bottom: 15px
+        .links
+            display: flex
+            padding-left: 0px
+            justify-content: space-around
+            padding-top: 15px
+            .tg, .insta
+                width: 130px
+                justify-content: space-between
+                padding-left: 35px
+                display: flex
+            .insta
+                padding-left: 10px
+                width: 105px
+            .insta i, .insta_text, .tg i, .tg_text
+                color: #fff
+                font-size: 25px
+    .splide__pagination__page.is-active
+        border: 1px solid #000
+    .splide__pagination
+        bottom: -4em    
+
+
+@import _media.sass
+
+audio
+    display: none
